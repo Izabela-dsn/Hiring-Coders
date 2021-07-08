@@ -101,4 +101,13 @@ const contato: Contato = {
   telefone1: '916165151'
 }
 
-//Aula 08
+// Type Assertion - coloca um tipo para o
+// dado em um determinado momento no código.
+// e deixa claro que tipo de dado vai ser.
+const minhaIdade: any = 20
+;(minhaIdade as number).toString()
+
+const input = document.getElementById('numero1') as HTMLInputElement
+console.log(input.value)
+
+const input2 = <HTMLInputElement>document.getElementById('numero1')
