@@ -3,11 +3,11 @@
 
    <h3>
       Pastas que vocês encontrarão:
-    
+    <br/>
       <li>Instalando e usando pela primeira vez</li>
       <li>Tipos</li>
       <li>Interfaces</li>
       <li>Classes</li>
-    
+    <br/>
       Ferramentas: TypeScript Playground
     </h3>
