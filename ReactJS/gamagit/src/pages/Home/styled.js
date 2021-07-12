@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: sans-serif;
   color: #333;
 `
@@ -33,6 +33,7 @@ export const Button = styled.button`
   background: #000;
   color: #fff;
   border-radius: 0 0.25rem 0.25rem 0;
+  cursor: pointer;
 
   &:focus,
   &:active {
