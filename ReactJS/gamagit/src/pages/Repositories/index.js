@@ -1,16 +1,22 @@
 import React, { useEffect, useState } from 'react'
+import { useHistory } from 'react-router'
 import * as Style from './styled'
 
 export default function Repositories() {
+  const history = useHistory()
   const [repositories, setRepositories] = useState([])
 
   useEffect(() => {
     //pegando dados do local storage
     let repositoriesName = localStorage.getItem('repositoriesName')
-    // colocando dados como JSON/objeto novamente
-    repositoriesName = JSON.parse(repositoriesName)
-    setRepositories(repositoriesName)
-    //localStorage.clear()
+    if (repositoriesName != null) {
+      // colocando dados como JSON/objeto novamente
+      repositoriesName = JSON.parse(repositoriesName)
+      setRepositories(repositoriesName)
+      localStorage.clear()
+    } else {
+      history.push('/')
+    }
   }, [])
 
   return (
