@@ -10,7 +10,7 @@ export default function Repositories() {
     // colocando dados como JSON/objeto novamente
     repositoriesName = JSON.parse(repositoriesName)
     setRepositories(repositoriesName)
-    localStorage.clear()
+    //localStorage.clear()
   }, [])
 
   return (
@@ -21,6 +21,8 @@ export default function Repositories() {
           return <Style.ListItem>Repositório: {repository}</Style.ListItem>
         })}
       </Style.List>
+
+      <Style.LinkHome to="/">Voltar</Style.LinkHome>
     </Style.Container>
   )
 }
