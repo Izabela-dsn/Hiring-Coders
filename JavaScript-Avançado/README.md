@@ -16,7 +16,7 @@
       <li>Projeto</li>
     </h3>
 
-    <h3>SPA, PWA, Webcomponents</h3>
+   <h3>SPA, PWA, Webcomponents</h3>
     <p>
       <strong>SPA</strong>(Single Page Application), aplicações que concentram
       seus conteúdos em apenas uma página, quando há modificação na nossa pagina
