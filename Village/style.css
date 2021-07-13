@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background: #a36629;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text p {
+  font: normal 2rem 'Open Sans';
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #cd8842;
+}
+
+header h1 {
+  color: #fff;
+  font: bold 3rem 'Open Sans';
+  padding: 1rem 0 1rem 3.8rem;
+}
+
+header a {
+  font: bold 1.25rem 'Open Sans';
+}
+
+nav {
+  padding-right: 4.7rem;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 2rem;
+}
+
+.banner {
+  height: 33rem;
+  background-image: url(./assets/banner.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner h2 {
+  font: bold 4rem 'Lato';
+  text-align: center;
+  color: #fff;
+}
+
+.banner p {
+  font: bold 2.25rem 'Lato';
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  margin-bottom: 5rem;
+  padding-top: 3rem;
+  color: #fff;
+  text-align: center;
+}
+
+#about h3 {
+  font: normal 3.25rem 'Open Sans';
+  margin-bottom: 2rem;
+}
+
+#about .text p {
+  margin-bottom: 2rem;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-box {
+  background: black;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  align-content: center;
+}
+
+.clock p,
+.clock-box p {
+  font: normal 2.5rem 'Open Sans';
+}
+
+#departments .text p {
+  margin-bottom: 3rem;
+}
+
+#departments .cards {
+  margin: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiper-slide {
+  height: auto;
+  padding: 4rem 1rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: white;
+}
+
+#sale {
+  padding-bottom: 6rem;
+}
+
+#sale .text p {
+  margin-bottom: 5rem;
+}
+
+#sale .btn-subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sale .btn-subscribe input {
+  border: 1px solid #ddd;
+  height: 3rem;
+  width: 30%;
+  padding: 0 0.5rem;
+  border-radius: 0.25rem 0 0 0.25rem;
+  font: normal 1.3rem 'Open Sans';
+}
+
+#sale .btn-subscribe input:focus,
+#sale .btn-subscribe input:active {
+  outline: none;
+  box-shadow: none;
+}
+
+#sale .btn-subscribe button {
+  height: 3.1rem;
+  width: 10rem;
+  border: 1px solid #ff4c4c;
+  background: #ff4c4c;
+  color: #fff;
+  border-radius: 0 0.25rem 0.25rem 0;
+
+  font: normal 1.1rem 'Lato';
+  cursor: pointer;
+}
+
+#sale .btn-subscribe button:focus,
+#sale .btn-subscribe button:active {
+  outline: none;
+  box-shadow: none;
+}
+
+footer.container {
+  background: #cd8842;
+  height: 10rem;
+  margin-bottom: 0;
+}
+
+footer p {
+  margin-bottom: 5rem;
+  font: normal 24px 'Lato';
+}
