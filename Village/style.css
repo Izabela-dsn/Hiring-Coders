@@ -78,7 +78,7 @@ nav a {
 }
 
 #about h3 {
-  font: normal 3.25rem 'Open Sans';
+  font: bold 3.25rem 'Open Sans';
   margin-bottom: 2rem;
 }
 
@@ -94,7 +94,7 @@ nav a {
 
 .clock-box {
   background: black;
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
   border-radius: 1rem;
   align-content: center;
 }
@@ -102,6 +102,15 @@ nav a {
 .clock p,
 .clock-box p {
   font: normal 2.5rem 'Open Sans';
+}
+
+.clock-text {
+  margin-right: 4.5rem;
+  margin-top: 0.5rem;
+}
+.clock-text span {
+  text-align: center;
+  margin-left: 6rem;
 }
 
 #departments .text p {
