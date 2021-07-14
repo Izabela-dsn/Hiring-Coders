@@ -179,6 +179,11 @@ nav a {
   box-shadow: none;
 }
 
+#sale span.error {
+  color: orange;
+  font: normal 1.2rem 'Opens Sans';
+}
+
 footer.container {
   background: #cd8842;
   height: 10rem;
