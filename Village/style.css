@@ -196,7 +196,115 @@ footer p {
   font: normal 24px 'Lato';
 }
 
+footer p:first-child {
+  margin-bottom: 2rem;
+}
+
 /* ---------------- Responsividade -------------------------*/
+@media (max-width: 320px) {
+  .text p {
+    font: normal 0.5rem 'Open Sans';
+  }
+  header h1 {
+    font: bold 0.9rem 'Open Sans';
+    padding: 0.5rem 0 0.5rem 1rem;
+  }
+  header a {
+    font: bold 0.5rem 'Open Sans';
+  }
+  nav {
+    padding-right: 0;
+  }
+  nav a {
+    margin-left: -1.5rem;
+  }
+
+  .banner {
+    height: 6.95rem;
+  }
+  .banner h2 {
+    font: bold 0.9rem 'Lato';
+  }
+  .banner p {
+    font: bold 0.6rem 'Lato';
+  }
+
+  .container {
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #about h3 {
+    font: bold 0.6rem 'Open Sans';
+    margin-bottom: 1rem;
+  }
+
+  #about .text p {
+    margin-bottom: 0.5rem;
+  }
+
+  .clock-box {
+    padding: 0.5rem 0.75rem;
+  }
+  .clock p,
+  .clock-box p {
+    font: normal 0.75rem 'Open Sans';
+  }
+
+  .clock-text {
+    margin-right: 0.8rem;
+    margin-top: 0;
+  }
+  .clock-text span {
+    margin-left: 1rem;
+    font-size: 6px;
+  }
+
+  #departments .text p {
+    margin-bottom: 0rem;
+  }
+
+  #departments .cards {
+    margin: 0 0.5rem;
+  }
+
+  .swiper-slide {
+    padding: 1rem 0.1rem 2rem 0.1rem;
+  }
+
+  #sale {
+    padding-bottom: 2rem;
+  }
+
+  #sale .text p {
+    margin-bottom: 1rem;
+  }
+
+  #sale .btn-subscribe input {
+    height: 1rem;
+    width: 40%;
+    font: normal 0.6rem 'Open Sans';
+  }
+
+  #sale .btn-subscribe button {
+    height: 1rem;
+    width: 3rem;
+    font: normal 0.4rem 'Lato';
+  }
+
+  footer.container {
+    height: 3rem;
+  }
+
+  footer p {
+    font: normal 0.5rem 'Lato';
+    margin-bottom: 0;
+  }
+  footer p:first-child {
+    margin-bottom: 0.5rem;
+  }
+}
+/*
 @media (max-width: 700px) {
   .text p {
     font: normal 1rem 'Open Sans';
@@ -298,3 +406,4 @@ footer p {
     margin-bottom: 2rem;
   }
 }
+*/
