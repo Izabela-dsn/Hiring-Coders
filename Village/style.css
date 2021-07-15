@@ -1,6 +1,7 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -51,7 +52,7 @@ nav a {
   height: 33rem;
   background-image: url(./assets/banner.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
   display: flex;
   flex-direction: column;
@@ -193,4 +194,107 @@ footer.container {
 footer p {
   margin-bottom: 5rem;
   font: normal 24px 'Lato';
+}
+
+/* ---------------- Responsividade -------------------------*/
+@media (max-width: 700px) {
+  .text p {
+    font: normal 1rem 'Open Sans';
+  }
+
+  header h1 {
+    font: bold 1.5rem 'Open Sans';
+    padding: 1rem 0 1rem 3rem;
+  }
+  header a {
+    font: bold 0.9rem 'Open Sans';
+  }
+  nav {
+    padding-right: 0.5rem;
+  }
+  nav a {
+    margin-right: 1rem;
+  }
+
+  .banner {
+    height: 15rem;
+  }
+  .banner h2 {
+    font: bold 1.6rem 'Lato';
+  }
+  .banner p {
+    font: bold 1rem 'Lato';
+    margin-bottom: 3.5rem;
+  }
+
+  .container {
+    padding-top: 0;
+  }
+
+  #about h3 {
+    font: bold 1.25rem 'Open Sans';
+  }
+
+  .clock-box {
+    padding: 1rem 1.5rem;
+  }
+  .clock p,
+  .clock-box p {
+    font: normal 2rem 'Open Sans';
+  }
+
+  .clock-text {
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+  }
+  .clock-text span {
+    text-align: center;
+    margin-left: 3rem;
+    font-size: 12px;
+  }
+
+  #departments .text p {
+    margin-bottom: 1.5rem;
+  }
+
+  #departments .cards {
+    margin: 0 0.5rem;
+  }
+
+  .swiper-slide {
+    padding: 2rem 0.1rem;
+  }
+
+  #sale {
+    padding-bottom: 3rem;
+  }
+
+  #sale .text p {
+    margin-bottom: 2.5rem;
+  }
+
+  #sale .btn-subscribe input {
+    height: 1.5rem;
+    width: 40%;
+    font: normal 0.8rem 'Open Sans';
+  }
+
+  #sale .btn-subscribe button {
+    height: 1.5rem;
+    width: 4rem;
+    font: normal 0.6rem 'Lato';
+  }
+
+  footer.container {
+    height: 6rem;
+  }
+
+  footer p {
+    font: normal 16px 'Lato';
+    margin-bottom: 0;
+  }
+  footer p:first-child {
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+  }
 }
