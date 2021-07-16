@@ -304,7 +304,7 @@ footer p:first-child {
     margin-bottom: 0.5rem;
   }
 }
-
+/*
 @media (min-width: 320px) {
   .text p {
     font: normal 0.6rem 'Open Sans';
@@ -409,7 +409,7 @@ footer p:first-child {
     margin-bottom: 0.5rem;
   }
 }
-
+/*
 @media (min-width: 700px) {
   .text p {
     font: normal 1rem 'Open Sans';
@@ -511,3 +511,4 @@ footer p:first-child {
     margin-bottom: 2rem;
   }
 }
+*/
