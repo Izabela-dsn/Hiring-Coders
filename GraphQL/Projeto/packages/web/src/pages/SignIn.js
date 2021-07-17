@@ -17,7 +17,7 @@ export default function SignIn() {
       })
     })
       .then(response => response.json())
-      .then(() => window.alert('Sucesso!'))
+      .then(data => console.log('Sucesso!', data))
   }
 
   const handleEmailChange = event => setEmail(event.target.value)
@@ -30,7 +30,7 @@ export default function SignIn() {
         <input
           type="email"
           id="email"
-          inputmode="email"
+          inputMode="email"
           autoComplete="username"
           value={email}
           onChange={handleEmailChange}
