@@ -344,9 +344,23 @@ footer p:first-child {
   }
 }
 @media (max-width: 430px) {
-  header h1 {
-    padding: 1rem 0.5rem 1rem 1rem;
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.5rem;
   }
+  header h1 {
+    padding: 1rem 0;
+  }
+  header a {
+    padding: 0;
+    margin: 0;
+  }
+  header a:nth-child(2) {
+    margin: 0 1rem;
+  }
+
   nav {
     padding-right: 0rem;
   }
@@ -374,22 +388,7 @@ footer p:first-child {
   .text p {
     font: normal 0.8rem 'Open Sans';
   }
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 0.5rem;
-  }
-  header h1 {
-    padding: 1rem 0;
-  }
-  header a {
-    padding: 0;
-    margin: 0;
-  }
-  header a:nth-child(2) {
-    margin: 0 1rem;
-  }
+
   .banner h2 {
     font: bold 1rem 'Lato';
   }
