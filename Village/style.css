@@ -57,6 +57,8 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .banner h2 {
@@ -201,220 +203,14 @@ footer p:first-child {
 }
 
 /* ---------------- Responsividade -------------------------*/
-@media (max-width: 320px) {
-  .text p {
-    font: normal 0.5rem 'Open Sans';
-  }
-  header h1 {
-    font: bold 0.9rem 'Open Sans';
-    padding: 0.5rem 0 0.5rem 1rem;
-  }
-  header a {
-    font: bold 0.5rem 'Open Sans';
-  }
-  nav {
-    padding-right: 0;
-  }
-  nav a {
-    margin-left: -1.5rem;
-  }
 
-  .banner {
-    height: 6.95rem;
-  }
-  .banner h2 {
-    font: bold 0.9rem 'Lato';
-  }
-  .banner p {
-    font: bold 0.6rem 'Lato';
-  }
-
-  .container {
-    padding-top: 1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  #about h3 {
-    font: bold 0.6rem 'Open Sans';
-    margin-bottom: 1rem;
-  }
-
-  #about .text p {
-    margin-bottom: 0.5rem;
-  }
-
-  .clock-box {
-    padding: 0.5rem 0.75rem;
-  }
-  .clock p,
-  .clock-box p {
-    font: normal 0.75rem 'Open Sans';
-  }
-
-  .clock-text {
-    margin-right: 0.8rem;
-    margin-top: 0;
-  }
-  .clock-text span {
-    margin-left: 1rem;
-    font-size: 6px;
-  }
-
-  #departments .text p {
-    margin-bottom: 0rem;
-  }
-
-  #departments .cards {
-    margin: 0 0.5rem;
-  }
-
-  .swiper-slide {
-    padding: 1rem 0.1rem 2rem 0.1rem;
-  }
-
-  #sale {
-    padding-bottom: 2rem;
-  }
-
-  #sale .text p {
-    margin-bottom: 1rem;
-  }
-
-  #sale .btn-subscribe input {
-    height: 1rem;
-    width: 40%;
-    font: normal 0.6rem 'Open Sans';
-  }
-
-  #sale .btn-subscribe button {
-    height: 1rem;
-    width: 3rem;
-    font: normal 0.4rem 'Lato';
-  }
-
-  footer.container {
-    height: 3rem;
-  }
-
-  footer p {
-    font: normal 0.5rem 'Lato';
-    margin-bottom: 0;
-  }
-  footer p:first-child {
-    margin-bottom: 0.5rem;
-  }
-}
-/*
-@media (min-width: 320px) {
-  .text p {
-    font: normal 0.6rem 'Open Sans';
-  }
-  header h1 {
-    font: bold 0.9rem 'Open Sans';
-    padding: 0.5rem 0 0.5rem 1rem;
-  }
-  header a {
-    font: bold 0.5rem 'Open Sans';
-  }
-  nav {
-    padding-right: 0;
-  }
-  nav a {
-    margin-left: -1.5rem;
-  }
-
-  .banner {
-    width: 100vw;
-    height: 10rem;
-  }
-  .banner h2 {
-    font: bold 1.3rem 'Lato';
-  }
-  .banner p {
-    font: bold 0.7rem 'Lato';
-  }
-
-  .container {
-    padding-top: 0.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  #about h3 {
-    font: bold 1rem 'Open Sans';
-    margin-bottom: 1rem;
-  }
-
-  #about .text p {
-    margin-bottom: 0.5rem;
-  }
-
-  .clock-box {
-    padding: 0.5rem 0.75rem;
-  }
-  .clock p,
-  .clock-box p {
-    font: normal 0.75rem 'Open Sans';
-  }
-
-  .clock-text {
-    margin-right: 0.6rem;
-    margin-top: 0;
-  }
-  .clock-text span {
-    margin-left: 1rem;
-    font-size: 7px;
-  }
-
-  #departments .text p {
-    margin-bottom: 0rem;
-  }
-
-  #departments .cards {
-    margin: 0 0.5rem;
-  }
-
-  .swiper-slide {
-    padding: 1rem 0.1rem 2rem 0.1rem;
-  }
-
-  #sale {
-    padding-bottom: 2rem;
-  }
-
-  #sale .text p {
-    margin-bottom: 1rem;
-  }
-
-  #sale .btn-subscribe input {
-    height: 1rem;
-    width: 40%;
-    font: normal 0.5rem 'Open Sans';
-  }
-
-  #sale .btn-subscribe button {
-    height: 1rem;
-    width: 3rem;
-    font: normal 0.4rem 'Lato';
-  }
-
-  footer.container {
-    height: 3rem;
-  }
-
-  footer p {
-    font: normal 0.5rem 'Lato';
-    margin-bottom: 0;
-  }
-  footer p:first-child {
-    margin-bottom: 0.5rem;
-  }
-}
-/*
-@media (min-width: 700px) {
+@media (max-width: 720px) {
   .text p {
     font: normal 1rem 'Open Sans';
   }
-
+  header {
+    justify-content: space-evenly;
+  }
   header h1 {
     font: bold 1.5rem 'Open Sans';
     padding: 1rem 0 1rem 3rem;
@@ -430,14 +226,14 @@ footer p:first-child {
   }
 
   .banner {
-    height: 15rem;
+    height: 20rem;
   }
   .banner h2 {
-    font: bold 1.6rem 'Lato';
+    font: bold 2rem 'Lato';
   }
   .banner p {
     font: bold 1rem 'Lato';
-    margin-bottom: 3.5rem;
+    padding-bottom: 3rem;
   }
 
   .container {
@@ -487,14 +283,14 @@ footer p:first-child {
   }
 
   #sale .btn-subscribe input {
-    height: 1.5rem;
+    height: 1.8rem;
     width: 40%;
     font: normal 0.8rem 'Open Sans';
   }
 
   #sale .btn-subscribe button {
-    height: 1.5rem;
-    width: 4rem;
+    height: 1.8rem;
+    width: 4.5rem;
     font: normal 0.6rem 'Lato';
   }
 
@@ -511,4 +307,148 @@ footer p:first-child {
     margin-bottom: 2rem;
   }
 }
-*/
+@media (max-width: 610px) {
+  .banner p {
+    padding-bottom: 7rem;
+  }
+}
+@media (max-width: 550px) {
+  .banner p {
+    padding-bottom: 8rem;
+  }
+  .banner h2 {
+    font: bold 1.6rem 'Lato';
+  }
+  .banner p {
+    font: bold 0.9rem 'Lato';
+  }
+
+  #about {
+    margin-top: -6rem;
+  }
+
+  .clock-box {
+    padding: 0.75rem 1.25rem;
+  }
+  .clock p,
+  .clock-box p {
+    font: normal 1.75rem 'Open Sans';
+  }
+
+  .clock-text {
+    margin-right: 1.7rem;
+    margin-top: 0.5rem;
+  }
+  .clock-text span {
+    margin-left: 2.3rem;
+  }
+}
+@media (max-width: 430px) {
+  header h1 {
+    padding: 1rem 0.5rem 1rem 1rem;
+  }
+  nav {
+    padding-right: 0rem;
+  }
+  .banner h2 {
+    font: bold 1.3rem 'Lato';
+  }
+  .banner p {
+    font: bold 0.7rem 'Lato';
+    padding-bottom: 10rem;
+  }
+
+  #sale .btn-subscribe input {
+    height: 1.7rem;
+    width: 40%;
+    font: normal 0.7rem 'Open Sans';
+  }
+
+  #sale .btn-subscribe button {
+    height: 1.7rem;
+    width: 4rem;
+    font: normal 0.55rem 'Lato';
+  }
+}
+@media (max-width: 320px) {
+  .text p {
+    font: normal 0.8rem 'Open Sans';
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.5rem;
+  }
+  header h1 {
+    padding: 1rem 0;
+  }
+  header a {
+    padding: 0;
+    margin: 0;
+  }
+  header a:nth-child(2) {
+    margin: 0 1rem;
+  }
+  .banner h2 {
+    font: bold 1rem 'Lato';
+  }
+  .banner p {
+    padding-bottom: 12rem;
+    font: bold 0.5rem 'Lato';
+  }
+  #about {
+    margin-top: -10rem;
+  }
+  #about h3 {
+    font: bold 1rem 'Open Sans';
+  }
+
+  #about .text p {
+    margin-bottom: 1rem;
+  }
+
+  .clock-box {
+    padding: 0.5rem 1rem;
+  }
+  .clock p,
+  .clock-box p {
+    font: normal 1.5rem 'Open Sans';
+  }
+
+  .clock-text {
+    margin-right: 1rem;
+    margin-top: 0rem;
+  }
+  .clock-text span {
+    margin-left: 1.7rem;
+    font-size: 10px;
+  }
+
+  #departments .text p {
+    margin-bottom: 0.5rem;
+  }
+
+  #sale {
+    padding-bottom: 1.5rem;
+  }
+
+  #sale .text p {
+    margin-bottom: 2rem;
+  }
+
+  #sale .btn-subscribe input {
+    height: 1.5rem;
+    font: normal 0.54rem 'Open Sans';
+  }
+
+  #sale .btn-subscribe button {
+    height: 1.5rem;
+    width: 4.5rem;
+    font: normal 0.5rem 'Lato';
+  }
+
+  footer p {
+    font: normal 12px 'Lato';
+  }
+}
