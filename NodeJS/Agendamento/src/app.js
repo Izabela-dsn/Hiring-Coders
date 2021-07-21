@@ -1,6 +1,5 @@
-const express = require('express')
-
-const routes = require('./router')
+import express, { json } from 'express'
+import routes from './router'
 
 class App {
   constructor() {
@@ -11,7 +10,7 @@ class App {
 
   //métodos
   middlewares() {
-    this.server.use(express.json())
+    this.server.use(json())
   }
 
   routes() {
@@ -19,4 +18,4 @@ class App {
   }
 }
 
-module.exports = new App().server
+export default new App().server
